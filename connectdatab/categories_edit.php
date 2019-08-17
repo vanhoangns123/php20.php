@@ -49,6 +49,6 @@ $category = $result->fetch_assoc();
 </html>
 <?php 
 
-$query1 = "update categories Set name='hoang' where id=" .$id;
+$query1 = "update categories Set name='' where id=" .$id;
 $status = $conn->query($query1);
  ?>

@@ -30,7 +30,7 @@ $detail=$category;
 <body>
     <div class="container">
         <h3 class="text-center">--- CATEGORIES ---</h3>
-        <a href="#" class="btn btn-primary">Add New Category</a>
+       
         <table class="table">
             <thead>
                 <th>ID</th>

@@ -1,4 +1,4 @@
-<?php 
+	<?php 
 $data=$_POST;
 require_once('connect.php');
  
@@ -13,6 +13,4 @@ if($status){
 
  ?>
 
-
- <!DOCTYPE html>
  

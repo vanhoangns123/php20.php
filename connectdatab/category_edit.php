@@ -30,31 +30,31 @@ $category=$result->fetch_assoc();
        <form action="category_edit_process.php" method="POST" role="form" >
             <div class="form-group">
                 <label for="">ID</label>
-                <input type="text" class="form-control" id="id" placeholder="id" name="id">
+                <input type="text" class="form-control" id="id" placeholder="" name="id" value="<?=$category['id']?>">
             </div>
             <div class="form-group">
                 <label for="">Name</label>
-                <input type="text" class="form-control" id="name" placeholder="" name="name">
+                <input type="text" class="form-control" id="name" placeholder="" name="name" value="<?=$category['name']?>">
             </div>
             <div class="form-group">
                 <label for="">Parent_ID</label>
-                <input type="text" class="form-control" id="parent_id" placeholder="" name="parent_id">
+                <input type="text" class="form-control" id="parent_id" placeholder="" name="parent_id" value="<?=$category['parent_id']?>">
             </div>
             <div class="form-group">
                 <label for="">Thumbnail</label>
-                <input type="text" class="form-control" id="Thumbnail" placeholder="" name="thumbnail">
+                <input type="text" class="form-control" id="Thumbnail" placeholder="" name="thumbnail" value="<?=$category['thumbnail']?>">
             </div>
             <div class="form-group">
                 <label for="">Slug</label>
-                <input type="text" class="form-control" id="Slug" placeholder="" name="slug">
+                <input type="text" class="form-control" id="Slug" placeholder="" name="slug" value="<?=$category['slug']?>">
             </div>
             <div class="form-group">
                 <label for="">Description</label>
-                <input type="text" class="form-control" id="description" placeholder="" name="description">
+                <input type="text" class="form-control" id="description" placeholder="" name="description" value="<?=$category['description']?>">
             </div>
             <div class="form-group">
                 <label for="">Created_at</label>
-                <input type="text" class="form-control" id="Created_at" placeholder="" name="created_at">
+                <input type="text" class="form-control" id="Created_at" placeholder="" name="created_at" value="<?=$category['created_at']?>">
             </div>
             <button type="submit" class="btn btn-primary" name="submit">Create</button>
         </form>
